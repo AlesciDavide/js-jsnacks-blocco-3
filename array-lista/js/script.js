@@ -10,7 +10,6 @@ for(let i = 0; i < listaSpesa.length; i++ ){
         checkValue = true;
         break;
     }
-    console.log(i);
 }
 
 if(checkValue === true){
