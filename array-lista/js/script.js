@@ -12,3 +12,8 @@ for(let i = 0; i < listaSpesa.length; i++ ){
     
 }
 
+if(checkValue === 1){
+    console.log('Trovato! Devo solo preparare il cocktail.');
+}else{
+    console.log('Oh no, devo uscire a comprare il cocomero!');
+}
