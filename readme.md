@@ -29,3 +29,37 @@ Probabilmente  conviene controllare che il numero di elementi della coda non sia
 Cartella: array_bonus
 Crea due array che hanno un numero di elementi diversi.
 Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
+
+
+--------------------
+1. Tutti frutti
+
+creo array con dentro i frutti
+aggiungo la pesca all'array con push
+faccio il controlo se dentro l'array c'è il cocomero con questa modalità:
+      -creo una variabile con dentro 0 per il controllo della presenza del cocomero
+      -faccio un for per scorrere la lista
+         -con un if controllo la presenza del prodotto
+            se è presente modifico la variabile con 1
+      -faccio un'altro if per il controllo della variabile
+         se è 1 il prodotto è presente
+         altrimenti se è rimasto a 0 non è presente.
+
+-------------------
+2. La coda dell'Array
+
+-inizializzo un'array e due variablie
+-chiedo all'utente quanti elementi vuole mettere nell'array 
+-faccio un ciclo for per quanti elementi dovrò inserire
+      in ogni ciclo creo un numero random e lo inserisco nella posizione dettata dal ciclo
+-stampo gli ultimi 5 numeri con slice (lunghezza array -5)
+-chiedo all'utente quanti elementi vuole stampare (con un controllo che non siano maggiori della lunghezza dell'array)
+-stampo gli ultimi numeri decisi dell'utente con slice (lunghezza array -numeriutente)
+
+-------------------
+
+3. bonus
+
+-creo 2 array con numei diversi di elementi e una variabile
+con un if controllo quale dei 2 è più corto
+   con un ciclo for aggiungo gli elementi all'array più corto con in controllo del for dandogli come fine la lunghezza dell'array più lungo salvando il check dell'if in una variabile 
