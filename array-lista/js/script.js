@@ -2,17 +2,18 @@ let listaSpesa = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino', 
 listaSpesa.push('pesca');
 
 
-let checkValue = 0;
+let checkValue = false;
 
 for(let i = 0; i < listaSpesa.length; i++ ){
 
     if(listaSpesa[i] == 'cocomero'){
-        checkValue = 1;
+        checkValue = true;
+        break;
     }
-    
+    console.log(i);
 }
 
-if(checkValue === 1){
+if(checkValue === true){
     console.log('Trovato! Devo solo preparare il cocktail.');
 }else{
     console.log('Oh no, devo uscire a comprare il cocomero!');
