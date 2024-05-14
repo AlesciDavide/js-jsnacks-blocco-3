@@ -11,3 +11,9 @@ for(let i= 0; i < numeroUtente; i++){
 
 console.log(lista.slice(numeroUtente - 5));
 
+let numeroUtenteStampa = Number.parseInt(prompt('Quanti elementi dell\' array vuoi stampare?'));
+if(numeroUtenteStampa > numeroUtente){
+    numeroUtenteStampa = numeroUtente - 1;
+}
+
+console.log(lista.slice(numeroUtente - numeroUtenteStampa));
