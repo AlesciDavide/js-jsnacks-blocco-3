@@ -50,6 +50,7 @@ faccio il controlo se dentro l'array c'è il cocomero con questa modalità:
 
 -inizializzo un'array e due variablie
 -chiedo all'utente quanti elementi vuole mettere nell'array 
+-faccio un controllo per assicurarmi che l'utente inserisca valori consoni
 -faccio un ciclo for per quanti elementi dovrò inserire
       in ogni ciclo creo un numero random e lo inserisco nella posizione dettata dal ciclo
 -stampo gli ultimi 5 numeri con slice (lunghezza array -5)
