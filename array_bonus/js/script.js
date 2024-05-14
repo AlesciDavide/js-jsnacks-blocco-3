@@ -7,4 +7,11 @@ if(listaUno.length > listaDue.length){
     for(let i = 0; i < x; i++){
         listaDue.push(Math.floor(Math.random()* 100 + 1));
     }
+}else{
+    x = listaDue.length - listaUno.length;
+    for(let i = 0; i < x; i++){
+        listaUno.push(Math.floor(Math.random()* 100 + 1));
+    }
 }
+
+console.log(listaUno, listaDue);
