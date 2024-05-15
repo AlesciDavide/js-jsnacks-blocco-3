@@ -4,7 +4,12 @@
 const arrayNumeriUtente = [];
 
 while(arrayNumeriUtente.length < 6){
-    arrayNumeriUtente.push(prompt('inserisci un numero'));
+    let numero = (prompt('inserisci un numero'));
+
+    if(numero % 2 == 1){
+        arrayNumeriUtente.push(numero);
+    }
+    
     
 }
 console.log(arrayNumeriUtente);
