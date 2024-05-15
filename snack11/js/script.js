@@ -10,11 +10,9 @@ while(somma < 50){
     
     let numeroUtente = (Number.parseInt(prompt('inserisci un numero')))
     somma = somma + numeroUtente;
-    if(somma > 50){
-    }else{
+    if(somma < 50){
         arrayUno.push(numeroUtente);
     }
-    
 }
 
 console.log(arrayUno, somma);
