@@ -2,13 +2,11 @@
 Continua a chiedere i numeri all'utente e a inserirli nell'array fino a quando la somma degli elementi è minore di 50. */
 
 const arrayUno = [];
-let i = 0;
 let somma = 0;
 
 
 while(somma < 50){
-    
-    let numeroUtente = (Number.parseInt(prompt('inserisci un numero')))
+    let numeroUtente = Number.parseInt(prompt('inserisci un numero'));
     somma = somma + numeroUtente;
     if(somma < 50){
         arrayUno.push(numeroUtente);
