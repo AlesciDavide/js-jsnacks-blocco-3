@@ -9,7 +9,7 @@ function invertiCifre(cifra){
     for(i = string.length - 1; i >= 0; i--){
         stringFinale += string[i];
     }
-    return stringFinale;
+    return parseInt(stringFinale, 10);
 }
 
 
