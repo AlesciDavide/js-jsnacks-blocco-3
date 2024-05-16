@@ -9,13 +9,14 @@ function invertiCifre(cifra){
     for(i = string.length - 1; i >= 0; i--){
         stringFinale += string[i];
     }
-    console.log(stringFinale);
+    return stringFinale;
 }
 
 
-const numero = ('235');
+const numero = ('5616818');
 
 
 
-invertiCifre(numero);
+let numeroInvertito = invertiCifre(numero);
+console.log(numeroInvertito);
 
