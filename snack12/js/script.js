@@ -14,6 +14,6 @@ function lunghezaParole(parolaUno, parolaDue){
     }
 }
 
-let testoUno = 'ciao';
-let testoDue = 'ciao';
+let testoUno = prompt('parola uno');
+let testoDue = prompt('parola due');
 lunghezaParole(testoUno, testoDue);
