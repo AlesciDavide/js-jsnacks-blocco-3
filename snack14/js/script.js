@@ -6,6 +6,7 @@ let numberUser = Number.parseInt(prompt('quanti secondi rimangono?'));
 if(numberUser > 10 || Number.isNaN(numberUser)){
     numberUser = 10;
 }
+divEl.innerHTML = (`<p>${numberUser}</p>`);
 
 const timer = setInterval(function(){
     numberUser--;
