@@ -35,24 +35,24 @@ const automobili = [
         alimentazione: 'benzina'
     },
     {
-    marca: 'ford',
-    modello: 'puma',
-    alimentazione: 'diesel'
+        marca: 'ford',
+        modello: 'puma',
+        alimentazione: 'diesel'
     },
     {
-    marca: 'bmw',
-    modello: 'a1',
-    alimentazione: 'gpl'
+        marca: 'bmw',
+        modello: 'a1',
+        alimentazione: 'gpl'
     },
     {
-    marca: 'bmw',
-    modello: 'a3',
-    alimentazione: 'elettrico'
+        marca: 'bmw',
+        modello: 'a3',
+        alimentazione: 'elettrico'
     },
     {
-    marca: 'audi',
-    modello: 'q8',
-    alimentazione: 'metano'
+        marca: 'audi',
+        modello: 'q8',
+        alimentazione: 'metano'
     },{
         marca: 'ford',
         modello: 'fiesta',
@@ -102,8 +102,9 @@ console.log(diesel);
 const macchineRestanti = automobili.filter((allMa) =>{
     if(allMa.alimentazione == 'benzina' || allMa.alimentazione == 'diesel'){
         return false;
+    }else{
+        return allMa;
     }
-    return allMa;
 })
 
 console.log(macchineRestanti);
