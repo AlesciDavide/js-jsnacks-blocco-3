@@ -87,3 +87,23 @@ const benzina = automobili.filter((benz) =>{
     return false;
 })
 console.log(benzina);
+
+
+const diesel = automobili.filter((diesel) =>{
+    if(diesel.alimentazione == 'diesel'){
+        return diesel;
+    }
+    return false;
+})
+
+console.log(diesel);
+
+
+const macchineRestanti = automobili.filter((allMa) =>{
+    if(allMa.alimentazione == 'benzina' || allMa.alimentazione == 'diesel'){
+        return false;
+    }
+    return allMa;
+})
+
+console.log(macchineRestanti);
