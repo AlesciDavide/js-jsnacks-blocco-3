@@ -10,47 +10,47 @@ const listaPersone = [
         eta: 15
     },
     {
-        nome: 'gino',
-        cognome: 'latrottola',
+        nome: 'roberto',
+        cognome: 'arrotino',
         eta: 25
     },
     {
-        nome: 'gino',
-        cognome: 'latrottola',
+        nome: 'daniele',
+        cognome: 'rottemmaier',
         eta: 35
     },
     {
-        nome: 'gino',
-        cognome: 'latrottola',
+        nome: 'risacca',
+        cognome: 'piano',
         eta: 45
     },
     {
-        nome: 'gino',
-        cognome: 'latrottola',
+        nome: 'gianni',
+        cognome: 'portafiori',
         eta: 55
     },
     {
-        nome: 'gino',
-        cognome: 'latrottola',
+        nome: 'brugola',
+        cognome: 'rossi',
         eta: 65
     },
     {
-        nome: 'gino',
-        cognome: 'latrottola',
+        nome: 'claudio',
+        cognome: 'rotondo',
         eta: 75
     },
     {
-        nome: 'gino',
-        cognome: 'latrottola',
+        nome: 'gianna',
+        cognome: 'prendirose',
         eta: 23
     },
     {
-        nome: 'gino',
+        nome: 'gigi',
         cognome: 'latrottola',
         eta: 53
     },
     {
-        nome: 'gino',
+        nome: 'gianni',
         cognome: 'latrottola',
         eta: 84
     },
@@ -67,3 +67,12 @@ for (const key in listaPersone) {
 }
 
 console.log(listaPersone);
+
+
+/* correzione riccardo */
+
+const PersoneModificate = listaPersone.map((persona) =>{
+    return  `${persona.nome} ${persona.cognome}, ${persona.eta >= 18 ? "può guidare" : "non può guidare"} `;
+})
+
+console.log(PersoneModificate);
