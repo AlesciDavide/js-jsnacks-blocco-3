@@ -35,7 +35,20 @@ for (const key in zucchine) {
         pesoZucchineMenoOtto.push(zucchine[key]);
     }
 }
-
-
 console.log(pesoZucchinePiuOtto);
 console.log(pesoZucchineMenoOtto);
+
+let sommaUno = 0;
+for (const key in pesoZucchinePiuOtto) {
+    let peso = Number.parseInt(pesoZucchinePiuOtto[key].peso);
+    sommaUno += peso;
+}
+console.log(sommaUno);
+
+let sommaDue = 0;
+for (const key in pesoZucchineMenoOtto) {
+    let peso = Number.parseInt(pesoZucchineMenoOtto[key].peso);
+    sommaDue += peso;
+}
+console.log(sommaDue);
+
