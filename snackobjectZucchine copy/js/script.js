@@ -34,7 +34,7 @@ let finestra = [
 
 
 finestra.forEach(element => {
-    if(element.tab[Number.parseInt(finestra.activeTab)] !== "GitHub" && element.tab[Number.parseInt(finestra.activeTab)] !== "Gmail"){
+    if(element.tab[Number.parseInt(finestra.activeTab)] == "GitHub" && element.tab[Number.parseInt(finestra.activeTab)] == "Gmail"){
     }else{
         element.tab.splice([Number.parseInt(element.activeTab)], 1);
         element.activeTab = element.activeTab + 1;
